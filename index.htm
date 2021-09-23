@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Beach Cafe</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">   
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">       
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header class="header">
+            <div id="background-img" class="header-body--img"></div>
+            <div class="header-side">
+                <div class="header-side--content">
+                    <h1><a class="menu-header" href="#" onclick="getValue(0);"><img class="logo-img" src="images/cafe-logo.png" alt="logo image"></a></h1>
+                    <ul class="side-menu">
+                        <li><a href="#" onclick="getValue(1);">Food Menu</a></li>
+                        <li><a href="#" onclick="getValue(2);">Beverages</a></li>
+                        <li><a href="#" onclick="getValue(3);">What's On</a></li>
+                        <li><a href="#" onclick="getValue(4);">Opening Hours</a></li>
+                        <li><a href="#" onclick="getValue(5);">Get In Touch</a></li>
+                        <li><a href="#" onclick="getValue(6);">Sign Up!</a></li>
+                    </ul>
+                </div>
+            </div>
+                    <!-- <div class="menu-item"> -->
+                        <div class="menu-item isNotVisible" id="menu-item--page1" myValue="1">
+                            <h1>Food Menu</h1>
+                            <h2>Starter:</h2>
+                            <h3>Crab Cakes                                  £3.75</h3>
+                            <h3>Bruccetta                                   £3.50</h3>
+                            <h3>Ceasar Salad                                £3.75</h3>
+                            <h3>Sea Bass Goujons                            £3.80</h3>
+                            <h3>Sea Food Sharer Plate                       £9.50</h3>
+                            <h2>Main Course:</h2>
+                            <h3>Lobster Linguine                            £21.95</h3>
+                            <h3>Sea Trout with Sea Vegetables               £12.25</h3>
+                            <h3>Oyster and Muscles in Champagne Sauce       £17.99</h3>
+                            <h3>Fillet Steak with Chunky Chips              £20.50</h3>
+                            <h3>Mushroom Risotto                            £11.50</h3>
+                            <h3>Cauliflower Steak with Chickpea Dhal        £12.75</h3>
+                            <h2>Dessert:</h2>
+                            <h3>New York Style Baked Vanilla Cheesecake     £7.25</h3>
+                            <h3>Apple and Rhubarb Pie with Cream            £7.25</h3>
+                            <h3>Chocolate Fondant with Ice Cream            £7.25</h3>
+                            <h3>Selection of Ice-Cream (3 scoops)           £6.75</h3>
+                            <h3>Cheese Board                                £9.99</h3>
+                        </div>
+                        <div class="menu-item isNotVisible" id="menu-item--page2" myValue="2">
+                            <h1>Beverages</h1>
+                            <h2>Wines:</h2>
+                            <h3>Cabernet Savignon (Chile)</h3>
+                            <h4>Bottle: £14.99 / Glass (175ml) £4.50</h4>
+                            <h3>Malbec (Argentina)</h3>
+                            <h4>Bottle: £13.99 / Glass (175ml) £4.30</h4>
+                            <h3>Pinot Grigio (Australia)</h3>
+                            <h4>Bottle: £14.75 / Glass (175ml) £4.45</h4>
+                            <h3>Savignon Blanc (USA)</h3>
+                            <h4>Bottle: £14.90 / Glass (175ml) £4.50</h4>
+                            <h2>Bottled Beers:</h2>
+                            <h3>Budweiser                                   £5.25</h3>
+                            <h3>Coors Light                                 £5.25</h3>
+                            <h3>Peroni                                      £5.25</h3>
+                            <h3>Corona Extra                                £5.25</h3>
+                            <h2>Non-Alcoholic:</h2>
+                            <h3>Coke/Diet Coke                              £2.80</h3>
+                            <h3>Lemonade                                    £2.00</h3>
+                            <h3>Tea                                         £1.90</h3>
+                            <h3>Coffee                                      £2.20</h3>
+                        </div>
+                        <div class="menu-item isNotVisible" id="menu-item--page3" myValue="3">
+                            <h1>What's On</h1>
+                            <h2>Check out our entertainment right here</h2>
+                            <h2>every Thursday, Friday & Saturday Nights!</h2>
+                            <h2 class="ent-header">The Beach Boyo's</h2><h3>The Welsh guys are back by popular demand</h3><h3>Thursday 1st July</h3>
+                            <h2 class="ent-header">Paradise City</h2><h3>The best Guns & Roses cover band this side of the Atlantic</h3><h3>Friday 2nd July</h3>
+                            <h2 class="ent-header">Disco Inferno</h2><h3>All of the greatest disco hits from the 70's and 80's</h3><h3>Saturday 3rd July</h3>
+                        </div>
+                        <div class="menu-item isNotVisible" id="menu-item--page4" myValue="4">
+                            <h1>Opening Hours</h1>
+                            <h2>Monday -- 11am till 10pm</h2>
+                            <h2>Tuesday -- 11am till 10pm</h2>
+                            <h2>Wednesday -- 12pm till 9pm</h2>
+                            <h2>Thursday -- 11am till 1am</h2>
+                            <h2>Friday -- 11am till 1am</h2>
+                            <h2>Saturday -- 12pm till 1am</h2>
+                            <h2>Sunday -- 12pm till 6pm</h2>
+                        </div>
+                        <div class="menu-item isNotVisible" id="menu-item--page5" myValue="5">
+                            <h1>Get In Touch</h1>
+                            <h2>We are just off Beach Street opposite the Weyland Hotel</h2>
+                            <h2>Call 0800 555 666 for Reservations</h2>
+                            <h2>email: thebeachcafe@foodie.com</h2>
+                            <h2>Find us on Facebook, Twitter & Instagram</h2>
+                        </div>
+                        <div class="menu-item isNotVisible" id="menu-item--page6" myValue="6">
+                            <h1>Sign Up!</h1>
+                            <form action="post" class="form-g">
+                                <label for="name">Name:</label><br>
+                                <input type="text" id="name" name="name" value="Your name"><br>
+                                <label for="phone">Telephone:</label><br>
+                                <input type="text" id="phone" name="phone" value="Your number"><br>
+                                <label for="email">Email:</label><br>
+                                <input type="email" id="email" name="email" value="Your email"><br><br>
+                                <button class="btn">Submit</button>
+                            </form>
+                        </div>
+                    <!-- </div>                          -->
+        </header>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
